@@ -1,0 +1,1052 @@
+@charset "utf-8";
+body{
+	font-size: 0;
+}
+#nav1{
+	height: 30px;
+	line-height: 30px;
+	background: #323232;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "黑体";
+	color: #c0c0c0;
+}
+
+#nav1 #ul1{
+	float: left;
+	padding-left: 15px;
+}
+#nav1>ul>li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+#nav1>ul>li:hover{
+	color: #10b041;
+}
+#nav1 #ul1>li{
+	margin: 0 15px;
+	
+}
+#nav1 #ul1>li:first-of-type{
+	padding-top: 4px;
+}
+#nav1 #ul1>li:nth-of-type(5) img,#nav1 #ul1>li:nth-of-type(9) img{
+	margin-left: 2px;
+}
+
+#nav1 #ul2{
+	float: right;
+	padding-right: 23px;
+}
+#nav1 #ul2 li{
+	margin: 0 7px;
+}
+#nav1 #ul2 li:first-of-type,#nav1 #ul2 li:nth-of-type(2),#nav1 #ul2 li:nth-of-type(3),#nav1 #ul2 li:nth-of-type(4){
+	padding-top: 4px;
+}
+#nav1 #ul2 li:first-of-type{
+	width: 31px;
+	margin-right: 17px;
+	background: url(../images/nav1-bj2.jpg) no-repeat right center;
+}
+#sq{
+	width: 185px;
+	height: 114px;
+	position: absolute;
+	top: 30px;
+	left: 310px;
+	background: white;
+	z-index: 10;
+	border-radius: 4px;
+	display: none;
+	z-index: 10;
+}
+#sq ul{
+	margin-top: 10px;
+}
+#sq ul li{
+	width: 185px;
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #636378;
+	padding-left: 22px;
+}
+#sq ul li:hover{
+	background: #e3fae1;
+}
+#sq ul li .div1{
+	width: 610px;
+	height: 352px;
+	background: skyblue;
+	position: absolute;
+	top: 0;
+	left: 190px;
+	display: none;
+}
+#yd{
+	width: 125px;
+	height: 178px;
+	position: absolute;
+	top: 30px;
+	left: 600px;
+	background: white;
+	z-index: 10;
+	border-radius: 4px;
+	font-size: 15px;
+	color: #636363;
+	font-weight: normal;
+	display: none;
+	z-index: 10;
+}
+#yd ul{
+	margin-top: 10px;
+}
+#yd ul li{
+	width: 125px;
+	line-height: 32px;
+	padding-left: 22px;
+}
+#yd ul li:hover{
+	background: #e3fae1;
+}
+#ss{
+	position: fixed;
+	top: 7px;
+	right: 240px;
+	display: none;
+}
+#nav1 .ul2 li ul{
+	width: 170px;
+	height: 300px;
+	position: absolute;
+	top: 35px;
+	right: 240px;
+	z-index: 100;
+	border-radius: 6px;
+}
+
+#banner1{
+	height: 120px;
+	background: url(../images/banner1-bj.jpg);
+	position: relative;
+}
+#banner1 .div1{
+	width: 479px;
+	height: 40px;
+	border-radius: 16px;
+	background: #fff;
+	position: absolute;
+	top: 40px;
+	left: 435px;
+}
+#banner1 .div1 input:first-of-type{
+	border: none;
+	width: 336px;
+	height: 28px;
+	border-right: 1px solid #8ae1cb;
+	float: left;
+	margin: 6px 0 0 25px;
+}
+#banner1 .div1 input:last-of-type{
+	width: 67px;
+	height: 19px;
+	margin: 10px 0 0 25px;
+	overflow: middle;
+	float: left;
+}
+#banner1>div>ul{
+	width: 336px;
+	height: 234px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	background: white;
+	display: none;
+	z-index: 11;
+}
+#banner1>div>ul>li{
+	width: 336px;
+	height: 39px;
+	line-height: 39px;
+	font-size: 14px;
+	color: #000000;
+	position: relative;
+	border-bottom: 1px solid #f4f4f4;
+	padding-left: 18px;
+}
+#banner1>div>ul>li>span{
+	font-size: 12px;
+	color: #e8e0db;
+	position: absolute;
+	top: 0;
+	right: 17px;
+}
+
+#nav2{
+	height: 50px;
+}
+#nav2 ul{
+	margin-left: 95px;
+}
+#nav2 ul li{
+	line-height: 50px;
+	float: left;
+	position: relative;
+}
+#nav2 ul li a{
+	display: inline-block;
+	height: 50px;
+	padding: 0 30px;
+	font-size: 15px;
+	font-family: "黑体";
+	color: #323232;
+	
+}
+#nav2 ul li:nth-of-type(3) img{
+	width: 37px;
+	height: 12px;
+	position: absolute;
+	top: 2px;
+	left: 68px;
+}
+#nav2 ul li:nth-of-type(3) div{
+	border: 3px solid #d0392a;
+	border-bottom: 3px solid transparent;
+	border-right: 3px solid transparent;
+	position: absolute;
+	top: 14px;
+	left: 99px;
+}
+#nav2 ul li a:hover{
+	background: #C0C0C0;
+	color: #00b081;
+}
+
+
+
+#banner2{
+	width: 1349px;
+	overflow: hidden;
+	height: 420px;
+	position: relative;
+}
+#banner2 .div1{
+	z-index: 10;
+	transition: all 1s;
+	position: relative;
+}
+#banner2 .div1 a{
+	display: inline-block;
+}
+#banner2 .div1 a:first-of-type{
+	position: absolute;
+	right: 0;
+}
+#banner2 .div1 a:nth-of-type(2){
+	position: absolute;
+	right: -1920px;
+}
+#banner2 .div1 a:nth-of-type(3){
+	position: absolute;
+	right: -3840px;
+}
+#banner2 .div1 a:nth-of-type(4){
+	position: absolute;
+	right: -5760px;
+}
+#banner2 .div2{
+	position: absolute;
+	bottom: 15px;
+	right: 104px;
+	z-index: 10;
+}
+#banner2 .div2 span{
+	display: inline-block;
+	width: 40px;
+	height: 5px;
+	background: rgba(0,0,0,0.6);
+	margin-right: 2px;
+}
+
+#banner4{
+	width: 280px;
+	height: 420px;
+	position: absolute;
+	top: 205px;
+	left: 7%;
+	z-index: 10;
+	background: rgba(0,0,0,0.8);
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+}
+#banner4 a{
+	font-size: 12px;
+	color: #c0c0c0;
+	margin-right: 4px;
+	font-weight: normal;
+}
+#banner4 ul{
+	position: relative;
+	margin-top: 11px;
+}
+#banner4 ul li{
+	height: 57px;
+	padding-left: 50px;
+	padding-top: 11px;
+}
+#banner4 ul li:hover{
+	background: white;
+	color: black;
+}
+#banner4 a:hover{
+	text-decoration: underline;
+	color: #10B041;
+}
+#banner4 ul li>div{
+	width: 700px;
+	height: 398px;
+	background: white;
+	position: absolute;
+	left: 280px;
+	top: 0px;
+	color: black;
+	display: none;
+}
+#banner4 ul li>div>div{
+	width: 290px;
+	margin-left: 40px;
+}
+#banner4 ul li>div>div:first-of-type{
+	height: 217px;
+	position: absolute;
+	top: 6px;
+}
+#banner4 ul li>div>div:nth-of-type(2){
+	height: 181px;
+	position: absolute;
+	top: 217px;
+}
+#banner4 ul li>div>div:nth-of-type(3){
+	height: 206px;
+	position: absolute;
+	top: 6px;
+	left: 330px;
+}
+#banner4 ul li>div img{
+	width: 290px;
+	height: 164px;
+	position: absolute;
+	top: 199px;
+	left: 370px;
+}
+#banner4 ul li>div>div h3{
+	height: 62px;
+	line-height: 62px;
+	border-bottom: 1px solid #ececec;
+	font-size: 22px;
+	font-family: "黑体";
+}
+#banner4 ul li>div>div a{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 12px;
+	color: #ff7467;
+	height: 24px;
+	line-height: 24px;
+}
+#banner4 ul li>div>div a:first-of-type{
+	margin-top: 12px;
+}
+#banner4 ul li:first-of-type>div div:first-of-type{
+	height: 200px;
+}
+#banner4 ul li:nth-of-type(2)>div div:nth-of-type(2){
+	position: absolute;
+	top: 200px;
+}
+#banner4 ul li:nth-of-type(2)>div img{
+	top: 135px;
+}
+#banner4 ul li:nth-of-type(3)>div div:nth-of-type(2){
+	position: absolute;
+	top: 200px;
+}
+#banner4 ul li:nth-of-type(3)>div img{
+	width: 290px;
+	height: 140px;
+	position: absolute;
+	top: 230px;
+}
+#banner4 ul li:first-of-type>div div:nth-of-type(2){
+	position: absolute;
+	top: 206px;
+}
+#banner4 ul li:nth-of-type(4)>div img{
+	width: 290px;
+	height: 80px;
+	position: absolute;
+	top: 255px;
+}
+#banner4 ul li:nth-of-type(4)>div div:nth-of-type(2){
+	position: absolute;
+	top: 6px;
+	left: 330px;
+}
+#banner4 ul li:nth-of-type(5)>div div:nth-of-type(2){
+	position: absolute;
+	top: 250px;
+}
+#banner4 ul li:nth-of-type(5)>div img{
+	position: absolute;
+	top: 160px;
+}
+#banner4 ul li:last-of-type>div div:nth-of-type(2){
+	position: absolute;
+	top: 160px;
+}
+#banner4 ul li:last-of-type>div img{
+	position: absolute;
+	top: 170px;
+}
+#banner4 ul li:nth-of-type(6)>div{
+	width: 370px;
+	height: 398px;
+}
+
+#banner3{
+	height: 110px;
+	margin: 20px 0 0 95px;
+}
+#banner3 img{
+	float: left;
+	margin-right: 20px;
+}
+
+#main1{
+	height: 280px;
+	background: #f5f5f5;
+	font-size: 0;
+}
+#main1 .div1{
+	padding-top: 41px;
+	padding-bottom: 30px;
+	margin-left: 95px;
+	line-height:34px;
+	line-height: 34px;
+}
+#main1 .div1 h3{
+	font-size: 34px;
+	font-family: "黑体";
+	display: inline-block;
+	margin-right: 14px;
+}
+#main1 .div1 span{
+	font-size: 12px;
+	color: #636363;
+	display: inline-block;
+}
+#main1 .div1 .span1{
+	height: 34px;
+	line-height: 34px;
+}
+#main1 .div1 p{
+	float: right;
+	margin-right: 94px;
+	position: relative;
+}
+#main1 .div1 p img{
+	position: absolute;
+	top: 10px;
+	left: -20px;
+}
+#main1 .div2{
+	margin-left: 95px;
+	font-size: 17px;
+}
+#main1 .div2 .div21,#main1 .div2 .div22,#main1 .div2 .div23{
+	width: 370px;
+	height: 125px;
+	float: left;
+	background: white;
+}
+#main1 .div2 .div22,#main1 .div2 .div23{
+	margin-left: 25px;
+}
+#main1 .div2>div>div{
+	border-top: 5px solid #ff7467;
+}
+#main1 .div2>div{
+	position: relative;
+}
+#main1 .div2 img{
+	float: left;
+	margin-right: 20px;
+}
+#main1 .div2>div>div p:first-of-type{
+	line-height: 24px;
+	padding-top: 10px;
+}
+#main1 .div2>div>div p:last-of-type span{
+	font-size: 23px;
+	color: #ff7467;
+}
+#main1 .div2>div>div p:last-of-type{
+	font-size: 12px;
+	color: #959595;
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+}
+
+#main2{
+	height: 709px;
+	font-size: 0;
+}
+#main2 .div1{
+	padding-top: 41px;
+	padding-bottom: 30px;
+	margin-left: 95px;
+	line-height:34px;
+	position: relative;
+	font-size: 12px;
+}
+#main2 .div1 h3{
+	font-size: 34px;
+	font-family: "黑体";
+	display: inline-block;
+	margin-right: 14px;
+}
+#main2 .div1>ul{
+	float: right;
+	margin-right: 94px;
+	font-size: 15px;
+}
+#main2 .div1>ul>li{
+	float: left;
+	margin-left: 30px;
+	height: 33px;
+	line-height: 33px;
+}
+#main2 .div1>ul>li:hover{
+	color: #00b081;
+	border-bottom: 3px solid #16c1a0;
+}
+#main2 .div1>ul>li div{
+	position: absolute;
+	top: 105px;
+	left: 0;
+	height: 555px;
+}
+#main2 .div1>ul>li div a{
+	position: relative;
+	overflow: hidden;
+}
+#main2 .div1>ul>li div a img:hover{
+	opacity: 0.6;
+}
+#main2 .div1>ul>li div a:nth-of-type(2),#main2 .div1>ul>li div a:nth-of-type(3),#main2 .div1>ul>li div a:nth-of-type(5),#main2 .div1>ul>li div a:nth-of-type(6){
+	margin-left: 20px;
+}
+#main2 .div1>ul>li div a:nth-of-type(2),#main2 .div1>ul>li div a:nth-of-type(3){
+	bottom: 84px;
+}
+#main2 .div1>ul>li div a:first-of-type img{
+	width: 570px;
+	height: 270px;
+}
+#main2 .div1>ul>li div a span:first-of-type{
+	display: inline-block;
+	width: 107px;
+	height: 36px;
+	background: #ff7467;
+	position: absolute;
+	bottom: 2px;
+	left: 71px;
+	z-index: 10;
+	font-size: 18px;
+	color: white;
+	padding-left: 15px;
+}
+#main2 .div1>ul>li div a span:nth-of-type(2){
+	display: inline-block;
+	height: 84px;
+	width: 275px;
+	background: white;
+	position: absolute;
+	bottom: -82px;
+	left: 0px;
+	z-index: 10;
+	overflow: hidden;
+	color: black;
+	border: 1px solid #ececec;
+	border-top: none;
+	padding: 15px 15px;
+	font-weight: bold;
+}
+#main2 .div1>ul>li div a span:nth-of-type(3){
+	display: inline-block;
+	height: 84px;
+	width: 275px;
+	position: absolute;
+	bottom: 2px;
+	left: 0px;
+	z-index: 10;
+	overflow: hidden;
+	padding: 10px 15px;
+}
+#main2 .div1>ul>li div a span:last-of-type{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	height: 36px;
+	width: 71px;
+	line-height: 36px;
+	color: white;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	bottom: 2px;
+	left: 0px;
+	z-index: 10;
+	padding: 0 15px;
+}
+#main2 .div1>ul>li div a:first-of-type span:first-of-type{
+	bottom: 86px;
+}
+#main2 .div1>ul>li div a:first-of-type span:nth-of-type(2){
+	bottom: 36px;
+	height: 50px;
+	width: 570px;
+	background: rgba(0,0,0,0.8);
+	border: none;
+	white-space: pre;
+	color: white;
+	font-size: 17px;
+}
+#main2 .div1>ul>li div a:first-of-type span:nth-of-type(3){
+	height: 34px;
+	width: 570px;
+	background: rgba(0,0,0,0.8);
+	color: #c0c0c0;
+	padding-top: 0;
+}
+#main2 .div1>ul>li div a:first-of-type span:last-of-type{
+	bottom: 86px;
+}
+#main2 .div2{
+	width: 275px;
+	height: 267px;
+	font-size: 17px;
+	color: white;
+	background: url(../images/main2-7.jpg);
+	position: absolute;
+	top: 1421px;
+	right: 94px;
+}
+#main2 .div2 p{
+	margin-top: 48px;
+	width: 275px;
+	text-align: center;
+}
+#main2 .div2 img{
+	margin-left: 104px;
+	margin-top: 15px;
+}
+#main2 .div2 ul{
+	margin-left: 23px;
+	margin-top: 43px;
+}
+#main2 .div2 ul li{
+	font-size: 15px;
+	float: left;
+	background: url(../images/main2-bj.jpg) no-repeat center right;
+}
+#main2 .div2 ul li:last-of-type{
+	background: none;
+}
+#main2 .div2 ul li a{
+	margin: 0 13px;
+	color: white;
+	display: inline-block;
+}
+#main2 .div2 ul li a:hover{
+	text-decoration: underline;
+}
+
+
+#main3{
+	height: 565px;
+	background: #f5f5f5;
+}
+#main3 .div1{
+	padding-top: 41px;
+	padding-bottom: 30px;
+	margin-left: 95px;
+	line-height:34px;
+	line-height: 34px;
+}
+#main3 .div1 h3{
+	font-size: 34px;
+	font-family: "黑体";
+	display: inline-block;
+	margin-right: 14px;
+}
+#main3 .div1 ul{
+	float: right;
+	margin-right: 94px;
+	font-size: 15px;
+}
+#main3 .div1 ul li{
+	float: left;
+	margin-left: 30px;
+	height: 33px;
+	line-height: 33px;
+}
+#main3 .div1 ul li:hover{
+	color: #00b081;
+	border-bottom: 3px solid #16c1a0;
+}
+
+#main3 .div2{
+	height: 410px;
+	margin-left: 95px;
+	margin-right: 94px;
+	font-size: 0;
+}
+#main3 .div2 .left{
+	width: 370px;
+	float: left;
+}
+#main3 .div2 .left .left1{
+	width: 370px;
+	height: 120px;
+	background: white;
+	font-size: 17px;
+	margin-top: 25px;
+	position: relative;
+}
+#main3 .div2 .left .left1 img{
+	float: left;
+	margin-right: 18px;
+}
+#main3 .div2 .left .left1 .p1{
+	padding-top: 19px;
+	line-height: 24px;
+}
+#main3 .div2 .left .left1 .p2{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+#main3 .div2 .left .left1 .p2 span{
+	font-size: 23px;
+	color: #ff7467;
+}
+
+#main3 .div2 .middle{
+	width: 370px;
+	height: 410px;
+	float: left;
+	margin-left: 25px;
+}
+#main3 .div2 .middle .minddle1{
+	width: 370px;
+	height: 120px;
+	background: white;
+	font-size: 17px;
+	position: relative;
+}
+#main3 .div2 .middle .minddle1 img{
+	float: left;
+	margin-right: 18px;
+}
+#main3 img:hover{
+	opacity: 0.6;
+}
+#main3 .div2 .middle .minddle1 .p1{
+	padding-top: 19px;
+	line-height: 24px;
+}
+#main3 .div2 .middle .minddle1 .p2{
+	font-size: 12px;
+	color: #959595;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+#main3 .div2 .middle .minddle1 .p2 span{
+	font-size: 23px;
+	color: #ff7467;
+}
+#main3 .div2 .middle .minddle2{
+	width: 370px;
+	height: 120px;
+	background: white;
+	font-size: 17px;
+	position: relative;
+	margin-top: 25px;
+}
+#main3 .div2 .middle .minddle2 img{
+	float: left;
+	margin-right: 18px;
+}
+#main3 .div2 .middle .minddle2 .p1{
+	padding-top: 19px;
+	line-height: 24px;
+}
+#main3 .div2 .middle .minddle2 .p2{
+	font-size: 12px;
+	color: #959595;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+#main3 .div2 .middle .minddle2 .p2 span{
+	font-size: 23px;
+	color: #ff7467;
+}
+#main3 .div2 .middle .minddle3{
+	width: 370px;
+	height: 120px;
+	background: white;
+	font-size: 17px;
+	position: relative;
+	margin-top: 25px;
+}
+#main3 .div2 .middle .minddle3 img{
+	float: left;
+	margin-right: 18px;
+}
+#main3 .div2 .middle .minddle3 .p1{
+	padding-top: 19px;
+	line-height: 24px;
+}
+#main3 .div2 .middle .minddle3 .p2{
+	font-size: 12px;
+	color: #959595;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+#main3 .div2 .middle .minddle3 .p2 span{
+	font-size: 23px;
+	color: #ff7467;
+}
+
+#main3 .div2 .right{
+	width: 370px;
+	height: 410px;
+	float: left;
+	margin-left: 25px;
+}
+#main3 .div2 .right .right1{
+	width: 370px;
+	height: 120px;
+	background: white;
+	font-size: 17px;
+	position: relative;
+}
+#main3 .div2 .right .right1 img{
+	float: left;
+	margin-right: 18px;
+}
+#main3 .div2 .right .right1 .p1{
+	padding-top: 19px;
+	line-height: 24px;
+}
+#main3 .div2 .right .right1 .p2{
+	font-size: 12px;
+	color: #959595;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+#main3 .div2 .right .right1 .p2 span{
+	font-size: 23px;
+	color: #ff7467;
+}
+#main3 .div2 .right .right2{
+	width: 370px;
+	height: 265px;
+	background: url(../images/main3-7.jpg);
+	margin-top: 25px;
+	font-size: 17px;
+	color: white;
+}
+#main3 .div2 .right .right2 p{
+	padding-top: 49px;
+	width: 370px;
+	text-align: center;
+}
+#main3 .div2 .right .right2 img{
+	margin-left: 152px;
+	margin-top: 15px;
+}
+#main3 .div2 .right .right2 ul{
+	margin-left: 12px;
+	margin-top: 43px;
+}
+#main3 .div2 .right .right2 ul li{
+	font-size: 15px;
+	float: left;
+	background: url(../images/main3-bj.jpg) no-repeat center right;
+}
+#main3 .div2 .right .right2 ul li:last-of-type{
+	background: none;
+}
+#main3 .div2 .right .right2 ul li a{
+	margin: 0 10px;
+	color: white;
+	display: inline-block;
+}
+#main3 .div2 .right .right2 ul li a:hover{
+	text-decoration: underline;
+}
+
+
+#main4{
+	height: 709px;
+	font-size: 0;
+}
+#main4 .div1{
+	padding-top: 41px;
+	padding-bottom: 30px;
+	margin-left: 95px;
+	line-height:34px;
+	line-height: 34px;
+}
+#main4 img:hover{
+	opacity: 0.6;
+}
+#main4 .div1 h3{
+	font-size: 34px;
+	font-family: "黑体";
+	display: inline-block;
+	margin-right: 14px;
+}
+#main4 .div1>ul{
+	float: right;
+	margin-right: 94px;
+	font-size: 15px;
+}
+#main4 .div1>ul li{
+	float: left;
+	margin-left: 30px;
+	height: 33px;
+	line-height: 33px;
+}
+#main4 .div1>ul li:hover{
+	color: #00b081;
+	border-bottom: 3px solid #16c1a0;
+}
+#main4 .div2{
+	margin-left: 95px;
+	margin-right: 94px;
+	height: 267px;
+}
+#main4 .div2>div{
+	float: left;
+}
+#main4 .div2 .div21,#main4 .div2 .div22{
+	margin-right: 20px;
+}
+#main4 .div2 .div22,#main4 .div2 .div23{
+	width: 275px;
+	height: 267px;
+}
+#main4 .div2 .div22>div,#main4 .div2 .div23>div{
+	border: 1px solid #ececec;
+	width: 275px;
+	height: 107px;
+	border-top: none;
+	position: relative;
+}
+#main4 .div2 .div22>div p,#main4 .div2 .div23>div p{
+	padding: 20px 0 0 17px;
+	font-size: 17px;
+	color: #323232;
+}
+#main4 .div3{
+	height: 267px;
+	clear: both;
+	margin: 20px 94px 0 95px;
+}
+#main4 .div3>div{
+	float: left;
+}
+#main4 .div3 .div31,#main4 .div3 .div32,#main4 .div3 .div33{
+	margin-right: 20px;
+}
+#main4 .div3 .div31>div,#main4 .div3 .div32>div,#main4 .div3 .div33>div{
+	border: 1px solid #ececec;
+	width: 275px;
+	height: 107px;
+	border-top: none;
+	position: relative;
+}
+#main4 .div3 .div31 p,#main4 .div3 .div32 p,#main4 .div3 .div33 p{
+	padding: 20px 0 0 17px;
+	font-size: 17px;
+	color: #323232;
+}
+#main4 .div3 .div34{
+	width: 275px;
+	height: 267px;
+	font-size: 17px;
+	color: white;
+	background: url(../images/main4-7.jpg);
+}
+#main4 .div3 .div34 p{
+	margin-top: 48px;
+	width: 275px;
+	text-align: center;
+}
+#main4 .div3 .div34 img{
+	margin-left: 104px;
+	margin-top: 15px;
+}
+#main4 .div3 .div34 ul{
+	margin-left: 23px;
+	margin-top: 43px;
+}
+#main4 .div3 .div34 ul li{
+	font-size: 15px;
+	float: left;
+	background: url(../images/main2-bj.jpg) no-repeat center right;
+}
+#main4 .div3 .div34 ul li:last-of-type{
+	background: none;
+}
+#main4 .div3 .div34 ul li a{
+	margin: 0 13px;
+	color: white;
+	display: inline-block;
+}
+#main4 .div3 .div34 ul li a:hover{
+	text-decoration: underline;
+}
+#main4 .div2>div>div>div{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	font-size: 12px;
+	color: #959595;
+}
+#main4 .div2>div>div>div span{
+	color: red;
+	font-size: 23px;
+}
+#main4 .div3>div>div>div{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	font-size: 12px;
+	color: #959595;
+}
+#main4 .div3>div>div>div span{
+	color: red;
+	font-size: 23px;
+}
